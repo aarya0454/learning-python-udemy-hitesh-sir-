@@ -11,4 +11,6 @@ cup  = Chaicup()
 print(cup.describe())
 print(Chaicup.describe(Chaicup)) # here the positional argument tells the method describe who's calling you is it Chaicup or cup or who !!
 cup_two = Chaicup()
-print(cup_two.describe())
+cup_two.size = 100
+# print(cup_two.describe())
+print(Chaicup.describe(cup_two))
