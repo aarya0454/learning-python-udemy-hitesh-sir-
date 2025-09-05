@@ -16,4 +16,4 @@ def sort_files(folder_path):
     for file in os.listdir(folder_path):
         full_path = os.path.join(folder_path,file)
         if os.path.isfile(full_path):
-            get_destination_folder(file)
+            get_destination_folder(file) 
